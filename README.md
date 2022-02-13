@@ -14,6 +14,9 @@
 --    => url.parse() 주소
       => url.format() 객체
 -- 8. hash
+      - 단방향 암호화
        => createHash(알고리즘) : md5, sha1, sha256, sha512 등 사용 => md5, sha1은 취약점 발견 sha512 사용
        => update(문자열)
        => digest(인코딩) : base64, hex, latin1 등 => base64가 대표적 비교적 길이가 짧음
+       => sha512도 뚤리면..? => sha3? 
+      - 양방향 암호화       
